@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box !important;
+}
+.bg{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+.whole{
+    width: 100%;
+    float: left;
+    background-color: #000;
+}
+.left-div{
+    width: 50%;
+    float: left;
+    padding: 1rem;
+}
+#adolf, #hitler{
+    font-family: 'Satisfy', cursive;
+    font-size: 8rem;
+    color: white;
+    width: fit-content;
+}
+#adolf{
+    background: linear-gradient(to right, #03a9f5, #3e78f3, #764af1, #9e29f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hitler{
+    padding-left: 2.5rem;
+}
+.right-div{
+    width: 50%;
+    float: right;
+}
+#main1{
+    width: 100%;
+}
