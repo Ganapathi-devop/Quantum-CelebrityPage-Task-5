@@ -58,6 +58,7 @@ body {
   margin-left: 6rem;
 }
 .right-div {
+  overflow: hidden;
   width: 50%;
   height: 72.5rem;
   float: right;
