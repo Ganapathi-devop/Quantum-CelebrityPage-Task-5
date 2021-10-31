@@ -213,7 +213,6 @@ body {
 }
 .collection{
     display: flex;
-    background-color: #000;
     flex-direction: column;
     justify-content: space-between;
 }
