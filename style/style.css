@@ -1,291 +1,293 @@
 * {
-  margin: 0px;
-  padding: 0%;
-  box-sizing: border-box !important;
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  width: 100%;
-  float: left;
-}
-.bg {
-  width: 100%;
-  overflow: hidden;
-  float: left;
-}
-.whole {
-  width: 100%;
-  float: left;
-  /* background-color: whitesmoke; */
-}
-.section-1 {
-  width: 100%;
-  float: left;
-  height: 100vh;
-  border-bottom: 5px solid rgba(0, 0, 0, 0.8);
-  margin-bottom: 100px;
-}
-.btn-div {
-  padding-left: 20rem;
-}
-.scroll-tag {
-  cursor: pointer;
-  float: right;
-}
-.left-div {
-  width: 50%;
-  height: 70rem;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: flex-start;
-  justify-content: center;
-}
-#adolf,
-#hitler {
-  font-size: 8rem;
-  color: #000;
-}
-#adolf {
-  font-weight: 800;
-}
-#hitler {
-  color: gray;
-  padding-left: 2.5rem;
-  margin-left: 6rem;
-}
-.right-div {
-  width: 50%;
-  height: 72.5rem;
-  float: right;
-  margin-top: 5rem;
-}
-.img-div {
-  width: 100%;
-  height: 100%;
-  float: right;
-  border: 5px solid #000;
-  border-bottom: unset;
-  background-color: #f6eee0;
-}
-#main1 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 100% 0;
-  float: left;
-}
-#flag {
-  position: absolute;
-  transform: rotate(11deg);
-  opacity: 45%;
-  width: 48rem;
-  height: 100%;
-  top: -10.5%;
-  left: -4%;
-}
-.army {
-  opacity: 75%;
-  width: 11rem;
-  position: absolute;
-  left: 0%;
-  bottom: 0%;
-}
-#army2 {
-  position: absolute;
-  width: 9rem !important;
-  left: 7.211%;
-  bottom: 0%;
-}
-#army3 {
-  position: absolute;
-  left: 20%;
-}
-#army4 {
-  position: absolute;
-  left: 41.6%;
-  bottom: 0.5%;
-}
-#army5 {
-  position: absolute;
-  width: 10rem !important;
-  left: 13.4%;
-  bottom: 0%;
-}
-#army6 {
-  position: absolute;
-  left: 27.1%;
-}
-#army7 {
-  position: absolute;
-  left: 34.5%;
-}
-.section-2 {
-  width: 100%;
-  float: left;
-  padding: 100px;
-}
-.about-side {
-  width: 50%;
-  float: right;
-  position: relative;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box !important;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    width: 100%;
+    float: left;
+  }
+  .bg {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+  }
+  .whole {
+    width: 100%;
+    float: left;
+    /* background-color: whitesmoke; */
+  }
+  .section-1 {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+    margin-bottom: 100px;
+    overflow: hidden;
+  }
+  .btn-div {
+    padding-left: 20rem;
+  }
+  .scroll-tag {
+    cursor: pointer;
+    float: right;
+  }
+  .left-div {
+    width: 50%;
+    height: 70rem;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     align-items: flex-start;
-    justify-content: flex-end;
-    align-content: space-around;
-}
-.imgloder-right {
+    justify-content: center;
+  }
+  #adolf,
+  #hitler {
+    font-size: 8rem;
+    color: #000;
+  }
+  #adolf {
+    font-weight: 800;
+  }
+  #hitler {
+    color: gray;
+    padding-left: 2.5rem;
+    margin-left: 6rem;
+  }
+  .right-div {
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-top: 5rem;
+  }
+  .img-div {
+    width: 100%;
+    height: 100%;
+    float: right;
+    border: 5px solid #000;
+    border-bottom: unset;
+    background-color: #f6eee0;
+  }
+  #main1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+    float: left;
+  }
+  #flag {
+    position: absolute;
+    transform: rotate(11deg);
+    opacity: 45%;
+    width: 48rem;
+    height: 100%;
+    top: -10.5%;
+    left: -4%;
+  }
+  .army {
+    opacity: 75%;
+    width: 11rem;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+  }
+  #army2 {
+    position: absolute;
+    width: 9rem !important;
+    left: 7.211%;
+    bottom: 0%;
+  }
+  #army3 {
+    position: absolute;
+    left: 20%;
+  }
+  #army4 {
+    position: absolute;
+    left: 41.6%;
+    bottom: 0.5%;
+  }
+  #army5 {
+    position: absolute;
+    width: 10rem !important;
+    left: 13.4%;
+    bottom: 0%;
+  }
+  #army6 {
+    position: absolute;
+    left: 27.1%;
+  }
+  #army7 {
+    position: absolute;
+    left: 34.5%;
+  }
+  .section-2 {
+    width: 100%;
+    float: left;
+    padding: 100px;
+  }
+  .about-side {
+    width: 50%;
+    float: right;
     position: relative;
-    animation-name: imgloderright;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      align-content: space-around;
+  }
+  .imgloder-right {
+      position: relative;
+      animation-name: imgloderright;
+      animation-duration: 2s;
+      animation-delay: 10ms;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+    }
+    @keyframes imgloderright {
+      0% {
+        right: -20%;
+        opacity: 0%;
+      }
+      50% {
+        right: -1%;
+        opacity: 20%;
+      }
+      75% {
+        right: 0%;
+        opacity: 75%;
+      }
+      100% {
+        right: unset;
+        opacity: 100%;
+      }
+    }
+  .img-side {
+    width: 50%;
+    float: left;
+  }
+  .imgloder-left {
+    position: relative;
+    animation-name: imgloder;
     animation-duration: 2s;
     animation-delay: 10ms;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
   }
-  @keyframes imgloderright {
+  @keyframes imgloder {
     0% {
-      right: -20%;
+      left: -20%;
       opacity: 0%;
     }
     50% {
-      right: -1%;
+      left: -1%;
       opacity: 20%;
     }
     75% {
-      right: 0%;
+      left: 0%;
       opacity: 75%;
     }
     100% {
-      right: unset;
+      left: unset;
       opacity: 100%;
     }
   }
-.img-side {
-  width: 50%;
-  float: left;
-}
-.imgloder-left {
-  position: relative;
-  animation-name: imgloder;
-  animation-duration: 2s;
-  animation-delay: 10ms;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-}
-@keyframes imgloder {
-  0% {
-    left: -20%;
-    opacity: 0%;
-  }
-  50% {
-    left: -1%;
-    opacity: 20%;
-  }
-  75% {
-    left: 0%;
-    opacity: 75%;
-  }
-  100% {
-    left: unset;
-    opacity: 100%;
-  }
-}
-#about-img {
-  width: 100%;
-  float: left;
-}
-.aboutside-titile{
-    color: #000;
-    font-size: 6rem;
-    font-family: 'Irish Grover', cursive;
-}
-.aboutside-quote{
-    font-size: 3rem;
-}
-.aboutside-p{
-    font-size: 1.5rem;
-    color: lightslategrey;
-}
-.collection{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.collection1 {
+  #about-img {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    float: left;
   }
-  .collection2 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  .aboutside-titile{
+      color: #000;
+      font-size: 6rem;
+      font-family: 'Irish Grover', cursive;
   }
-  .popular-grid {
-      width: fit-content;
-    overflow: hidden;
+  .aboutside-quote{
+      font-size: 3rem;
   }
-  .popular-img {
-    border-bottom: 2px solid red;
+  .aboutside-p{
+      font-size: 1.5rem;
+      color: lightslategrey;
   }
-  .addtocart {
-    width: 97%;
-    position: relative;
-    bottom: 40px;
-    display: block;
+  .collection{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
   }
-  #addtocart1 {
-    display: none;
-    animation-direction: alternate;
-  }
-  #popular1:hover #addtocart1 {
-    display: block;
-    transition: ease-in-out 2s;
-  }
-  #addtocart2 {
-    display: none;
-    animation-direction: alternate;
-  }
-  #popular2:hover #addtocart2 {
-    display: block;
-    transition: ease-in-out;
-  }
-  #addtocart3 {
-    display: none;
-    animation-direction: alternate;
-  }
-  #popular3:hover #addtocart3 {
-    display: block;
-    transition: ease-in-out;
-  }
-  #addtocart4 {
-    display: none;
-    animation-direction: alternate;
-  }
-  #popular4:hover #addtocart4 {
-    display: block;
-    transition: ease-in-out;
-  }
-  #addtocart5 {
-    display: none;
-    animation-direction: alternate;
-  }
-  #popular5:hover #addtocart5 {
-    display: block;
-    transition: ease-in-out;
-  }
-  #addtocart6 {
-    display: none;
-    animation-direction: alternate;
-  }
-  #popular6:hover #addtocart6 {
-    display: block;
-    transition: ease-in-out;
-  }  
+  .collection1 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .collection2 {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .popular-grid {
+        width: fit-content;
+      overflow: hidden;
+    }
+    .popular-img {
+      border-bottom: 2px solid red;
+    }
+    .addtocart {
+      width: 97%;
+      position: relative;
+      bottom: 40px;
+      display: block;
+    }
+    #addtocart1 {
+      display: none;
+      animation-direction: alternate;
+    }
+    #popular1:hover #addtocart1 {
+      display: block;
+      transition: ease-in-out 2s;
+    }
+    #addtocart2 {
+      display: none;
+      animation-direction: alternate;
+    }
+    #popular2:hover #addtocart2 {
+      display: block;
+      transition: ease-in-out;
+    }
+    #addtocart3 {
+      display: none;
+      animation-direction: alternate;
+    }
+    #popular3:hover #addtocart3 {
+      display: block;
+      transition: ease-in-out;
+    }
+    #addtocart4 {
+      display: none;
+      animation-direction: alternate;
+    }
+    #popular4:hover #addtocart4 {
+      display: block;
+      transition: ease-in-out;
+    }
+    #addtocart5 {
+      display: none;
+      animation-direction: alternate;
+    }
+    #popular5:hover #addtocart5 {
+      display: block;
+      transition: ease-in-out;
+    }
+    #addtocart6 {
+      display: none;
+      animation-direction: alternate;
+    }
+    #popular6:hover #addtocart6 {
+      display: block;
+      transition: ease-in-out;
+    }  
