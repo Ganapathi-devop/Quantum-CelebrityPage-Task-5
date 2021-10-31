@@ -3,6 +3,10 @@
     padding: 0%;
     box-sizing: border-box !important;
 }
+body{
+    width: 100%;
+    float: left;
+}
 .bg{
     width: 100%;
     overflow: hidden;
@@ -11,31 +15,47 @@
 .whole{
     width: 100%;
     float: left;
-    background-color: #000;
+    background-color: whitesmoke;
 }
 .left-div{
     width: 50%;
+    height: 70rem;
     float: left;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+    
 }
 #adolf, #hitler{
-    font-family: 'Satisfy', cursive;
     font-size: 8rem;
-    color: white;
-    width: fit-content;
+    color: #000;
 }
 #adolf{
-    background: linear-gradient(to right, #03a9f5, #3e78f3, #764af1, #9e29f0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: 800;
 }
 #hitler{
-    padding-left: 2.5rem;
+    color: gray;
+    padding-left: 2rem;
+    margin-left: 5rem;
 }
 .right-div{
     width: 50%;
+    height: 64rem;
     float: right;
+    margin-top: 5rem;
+}
+.img-div{
+    width: 100%;
+    height: 100%;
+    float: right;
+    border: 5px solid #000;
+    background-color: #F6EEE0;
 }
 #main1{
     width: 100%;
+    object-fit: scale-down;
+
+    float: left;
 }
