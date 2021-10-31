@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box !important;
+}
+body {
+  width: 100%;
+  float: left;
+}
+.bg {
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+.whole {
+  width: 100%;
+  float: left;
+  background-color: whitesmoke;
+}
+.left-div {
+  width: 50%;
+  height: 70rem;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+#adolf,
+#hitler {
+  font-size: 8rem;
+  color: #000;
+}
+#adolf {
+  font-weight: 800;
+}
+#hitler {
+  color: gray;
+  padding-left: 2.5rem;
+  margin-left: 6rem;
+}
+.right-div {
+  width: 50%;
+  height: 65rem;
+  float: right;
+  margin-top: 5rem;
+}
+.img-div {
+  width: 100%;
+  height: 100%;
+  float: right;
+  border: 5px solid #000;
+  background-color: #f6eee0;
+}
+#main1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  float: left;
+}
+#flag {
+  position: absolute;
+  transform: rotate(11deg);
+  opacity: 45%;
+  width: 46rem;
+  height: 100%;
+  top: -6.5%;
+  left: -5%;
+}
+.army {
+  opacity: 75%;
+  width: 11rem;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+#army2 {
+  position: absolute;
+  width: 10rem !important;
+  left: 13.3%;
+  bottom: -1%;
+}
+#army3 {
+  position: absolute;
+  left: 22.5%;
+}
+#army4 {
+  position: absolute;
+  left: 41.6%;
+}
+#army5 {
+  position: absolute;
+  width: 10rem !important;
+  left: 13.3%;
+  bottom: -1%;
+}
+#army6 {
+  position: absolute;
+  left: 22.5%;
+}
+#army7 {
+  position: absolute;
+  left: 34.5%;
+}
