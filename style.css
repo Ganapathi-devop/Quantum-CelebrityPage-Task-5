@@ -61,7 +61,7 @@ body {
 .right-div {
   overflow: hidden;
   width: 50%;
-  height: 72.5rem;
+  height: 100%;
   float: right;
   margin-top: 5rem;
 }
