@@ -84,6 +84,7 @@ body {
 #flag {
   position: absolute;
   transform: rotate(11deg);
+  z-index: -1;
   opacity: 45%;
   width: 48rem;
   height: 100%;
