@@ -29,7 +29,8 @@ body {
   overflow: hidden;
 }
 .btn-div {
-  padding-left: 20rem;
+  padding-left: 30rem;
+  z-index: 1;
 }
 .scroll-tag {
   cursor: pointer;
