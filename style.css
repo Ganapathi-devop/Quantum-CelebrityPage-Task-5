@@ -154,7 +154,7 @@ body {
   @keyframes imgloderright {
     0% {
       right: -20%;
-      opacity: 0%;
+      opacity: -10%;
     }
     50% {
       right: -1%;
@@ -184,7 +184,7 @@ body {
 @keyframes imgloder {
   0% {
     left: -20%;
-    opacity: 0%;
+    opacity: -10%;
   }
   50% {
     left: -1%;
